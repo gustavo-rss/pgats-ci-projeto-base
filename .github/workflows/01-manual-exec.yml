@@ -32,7 +32,7 @@
         run: yarn run e2e
 
       - uses: action/upload-artifact@v4
-      if: {{ !cancelled() }}
-      with:
-        name: relatorio-de-testes
-        path: ./playwright-report
+        if: {{ !cancelled() }}
+        with:
+         name: relatorio-de-testes
+         path: ./playwright-report
