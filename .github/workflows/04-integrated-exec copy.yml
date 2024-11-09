@@ -80,8 +80,6 @@ jobs:
           name: relatorio-de-testes
           path: ./playwright-report
 
-  # deploy:
-  #   runs-on: ubuntu-latest
-  #   needs: [e2e-tests]
-  #   # steps:
-  #   # - name: Deploy
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [e2e-tests]
