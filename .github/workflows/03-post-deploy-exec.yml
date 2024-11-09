@@ -5,7 +5,7 @@ name: 'Execucao por Deploy'
 # Gatilho de execução por deploy após outro workflow executado = workflow_run
 on:
   workflow_run:
-    workflows: ['Execucao Manual']
+    workflows: ['Execução Manual']
     types:
       - completed
 
