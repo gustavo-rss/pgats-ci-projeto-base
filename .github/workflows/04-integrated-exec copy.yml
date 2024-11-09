@@ -1,5 +1,5 @@
 # CI de Nível 04 - Disparo dentro do fluxo de CI de desenvolvimento
-name: 'Execução Agendada'
+name: 'Execução Integrada'
 
 # regras de disparo da execucao (triggers/gatilhos)
 # gatilho da exec agendada = schedule
